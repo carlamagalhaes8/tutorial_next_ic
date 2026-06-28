@@ -1,8 +1,9 @@
 interface Pesquisador {
-  name: string;
+
+  pesquisadores_id: string;
+  nome: string;
   lattes_id: string;
-  abstract: string;
-  articles: number;
+
 }
 
 export default Pesquisador;

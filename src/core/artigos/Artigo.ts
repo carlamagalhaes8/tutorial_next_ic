@@ -1,9 +1,11 @@
 interface Artigo {
-  researcher: string;
-  title: string;
-  doi: string;
-  qualis: string;
-  year: number;
+
+  producoes_id: string;
+  pesquisadores_id: string;
+  nomeartigo: string;
+  anoartigo: number;
+  issn: string;
+
 }
 
 export default Artigo;
